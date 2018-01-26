@@ -10,5 +10,5 @@ Recently, Scholars@Duke and The Graduate School of Duke University published dat
 Aghil (my collaborator who is a graduate student at Duke) and I put together a poster that he presented at Duke Research Computing Symposium, and we received the third prize for this visualization. Here’s the poster we presented at the symposium: 
 
 <div align="center">
-<img src="https://vgy.me/GHpp7m.png" alt="GHpp7m.png">
+<img src="https://vgy.me/3LSkgv.png" alt="3LSkgv.png" height="500px">
  

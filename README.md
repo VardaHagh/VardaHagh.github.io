@@ -7,7 +7,7 @@ Recently, Scholars@Duke and The Graduate School of Duke University published dat
 - What can the makeup of dissertation committees tell us about trends in research?
 - How many Duke faculty cross departmental and school boundaries in their publishing and teaching activities, and can these activities be visualized?
  
-Aghil (my collaborator who is a graduate student at Duke) and I put together a poster that he presented at Duke Research Computing Symposium, and we received the third prize for this visualization. Here’s the poster we presented at the symposium: 
+Aghil (my collaborator who is a graduate student at Duke) and I put together a poster that he presented at Duke Research Computing Symposium, and we received the third prize for this visualization. Here’s the poster we presented at the symposium (click on the picture to see it full size): 
 
 <div align="center">
 <img src="https://vgy.me/3LSkgv.png" alt="3LSkgv.png" height="500px">

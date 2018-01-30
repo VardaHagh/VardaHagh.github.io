@@ -20,6 +20,6 @@ There were three data files included: The first one has the entire faculty list,
 
 We first looked into the number of publications at each of the ten main schools per year from 2013 to 2016. Then we used polynomial regression to predict the numbers for 2017 and 2018. To our great surprise, there was a decline in the number of publication over the course of five years in 9 out of 10 cases. The only school that seemed to have an increasing number of publications per year is Duke Law School.  It turns out the publication data includes only those publications that were verified by the faculty, and of course the faculties have been spending less and less time on verifying these lists. The reason we don’t see this pattern in Duke Law School, is because they have a program manager that does the job. This was a big lesion we learned:
 
-### Do not assume that the data you have is complete!
+### Do not assume your dataset is complete, even if there are no obvious missing values!
 
  

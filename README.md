@@ -22,4 +22,8 @@ We first looked into the number of publications at each of the ten main schools 
 
 ### Do not assume your dataset is complete, even if there are no obvious missing values!
 
+```
+th neural_style.lua -style_image <image.jpg> -content_image <image.jpg>
+```
+
  

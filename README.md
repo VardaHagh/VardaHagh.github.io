@@ -13,7 +13,13 @@ Recently, Scholars@Duke and The Graduate School of Duke University published dat
 <img src="https://vgy.me/3LSkgv.png" alt="3LSkgv.png" height="500px">
 </div> 
 
+
 Our Poster is now in Duke's Library and can be cited. You can see the abstract [here](http://hdl.handle.net/10161/16026/).
  
 There were three data files included: The first one has the entire faculty list, their unique Duke IDs, their appointment types, and the school or organizations they’re affiliated with. The next dataset includes all the publications, their authors, venues, and a few columns that could be used to identify and index them (like their SSN, Google Scholar URL, etc.). The third dataset includes information about Ph.D. dissertation committees. In this dataset, each row identifies a student with a computer generated unique ID. The columns include the school and department they’re in, their graduation year, and the Duke ID for all faculty members on their committees. In order to get insight into Duke’s collaborations and interdisciplinary research, we needed to combine the three datasets.
+
+We first looked into the number of publications at each of the ten main schools per year from 2013 to 2016. Then we used polynomial regression to predict the numbers for 2017 and 2018. To our great surprise, there was a decline in the number of publication over the course of five years in 9 out of 10 cases. The only school that seemed to have an increasing number of publications per year is Duke Law School.  It turns out the publication data includes only those publications that were verified by the faculty, and of course the faculties have been spending less and less time on verifying these lists. The reason we don’t see this pattern in Duke Law School, is because they have a program manager that does the job. This was a big lesion we learned:
+
+### Do not assume that the data you have is complete!
+
  

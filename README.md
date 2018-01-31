@@ -22,9 +22,17 @@ We first looked into the number of publications at each of the ten main schools 
 
 ### Do not assume your dataset is complete, even if there are no obvious missing values!
 
-We also wanted to show how different schools and disciplines are connected in terms of their coauthored publications. Using the publication data and combining it with the faculty data, we assigned a publication to a Duke department or organization if at least one of the authors was primarily affiliated with that department or organization. Then by looking at the shared publications between different departments we built an adjacency matrix where each row and column represented a school or department and the each element M[i,j] was proportional to the number of unique co-authored publications between schools i and j.
+We also wanted to show how different schools and disciplines are connected in terms of their coauthored publications and shared Ph.D. committees. 
+Using the publication data and combining it with the faculty data, we assigned a publication to a Duke department or organization if at least one of the authors was primarily affiliated with that department or organization. Then by looking at the shared publications between different departments, we built an adjacency matrix where each row and column represent a school or department and the each element C[i,j] is proportional to the number of unique co-authored publications between schools i and j. 
+To get an insight into interdisciplinarity of education at Duke, we built a similar matrix E.  In this matrix, the rows represent departments from which Ph.D. students have graduated since 2012, the columns represent the schools where Ph.D. committee advisors are affiliated, and each element E[i,j] is proportional to the number of Ph.D. students in department i, who have selected their committees from school j.  Both these matrices provide a pretty good measure of how different disciplines overlap.
 
-All the analysis was conducted in Python, mainly using Pandas. After creating the adjacency matrix, we fed it into [Gephi](https://gephi.org) which is a great open source platform for graph visualization. Here () you can find my Ipython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
+All the analysis was conducted in Python, mainly using Pandas. After creating the matrices C and E, we fed them into [Gephi](https://gephi.org) which is a great open source platform for graph visualization. The created graphs can be seen in the poster, but we also provide interactive versions that can be found in the following:
+
+> [Interactive Graph for Interdisciplinary Collaborations at Duke](vfaghirh@github.io/Duke-Collaborations)
+> [Interactive Graph for Interdisciplinary Education at Duke](vfaghirh@github.io/Duke-Education)
+
+
+Here () you can find my IPython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
 
 
 ```

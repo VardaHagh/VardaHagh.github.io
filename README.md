@@ -22,7 +22,9 @@ We first looked into the number of publications at each of the ten main schools 
 
 ### Do not assume your dataset is complete, even if there are no obvious missing values!
 
-We also wanted to show how different schools and disciplines are connected in terms of their coauthored publications. Using the publication data and combining it with the faculty data, we assigned a publication to a Duke department or organization if at least one of the authors was primarily affiliated with that department or organization. Then by looking at the shared publications between different departments we built an adjacency matrix where each row and column represented a school or department and the each element $\M[i,j]$ was proportional to the number of unique co-authored publications between schools i and j.
+We also wanted to show how different schools and disciplines are connected in terms of their coauthored publications. Using the publication data and combining it with the faculty data, we assigned a publication to a Duke department or organization if at least one of the authors was primarily affiliated with that department or organization. Then by looking at the shared publications between different departments we built an adjacency matrix where each row and column represented a school or department and the each element M[i,j] was proportional to the number of unique co-authored publications between schools i and j.
+
+
 
 ```
 th neural_style.lua -style_image <image.jpg> -content_image <image.jpg>

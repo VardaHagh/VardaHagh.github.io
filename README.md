@@ -24,6 +24,7 @@ We first looked into the number of publications at each of the ten main schools 
 
 We also wanted to show how different schools and disciplines are connected in terms of their coauthored publications. Using the publication data and combining it with the faculty data, we assigned a publication to a Duke department or organization if at least one of the authors was primarily affiliated with that department or organization. Then by looking at the shared publications between different departments we built an adjacency matrix where each row and column represented a school or department and the each element M[i,j] was proportional to the number of unique co-authored publications between schools i and j.
 
+All the analysis was conducted in Python, mainly using Pandas. After creating the adjacency matrix, we fed it into [Gephi] (https://gephi.org) which is a great open source platform for graph visualization. Here () you can find my Ipython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
 
 
 ```

@@ -36,7 +36,7 @@ All the analysis was conducted in Python, mainly using Pandas. After creating th
 > (see the code [here](https://github.com/vfaghirh/Duke-Education))
 
 
-[Here](https://github.com/vfaghirh/Duke-Project)) you can find my IPython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
----
+[Here](https://github.com/vfaghirh/Duke-Project) you can find my IPython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
+
 ## Analyzing Insight Fellows
  

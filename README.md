@@ -28,8 +28,9 @@ To get an insight into interdisciplinarity of education at Duke, we built a simi
 
 All the analysis was conducted in Python, mainly using Pandas. After creating the matrices C and E, we fed them into [Gephi](https://gephi.org) which is a great open source platform for graph visualization. The created graphs can be seen in the poster, but we also provide interactive versions that can be found in the following:
 
-> [Interactive Graph for Interdisciplinary Collaborations at Duke](vfaghirh@github.io/Duke-Collaborations)
-> [Interactive Graph for Interdisciplinary Education at Duke](vfaghirh@github.io/Duke-Education)
+> [Interactive Graph for Interdisciplinary Collaborations at Duke](vfaghirh.github.io/Duke-Collaborations)
+
+> [Interactive Graph for Interdisciplinary Education at Duke](vfaghirh.github.io/Duke-Education)
 
 
 Here () you can find my IPython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 

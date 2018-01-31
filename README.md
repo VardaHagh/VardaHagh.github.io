@@ -1,4 +1,5 @@
-# My Personal Projects
+# Personal Projects
+---
 ## Duke Visualization Challenge
 
 Recently, Scholars@Duke and The Graduate School of Duke University published datasets describing their faculty, publications, and PhD dissertation committees. They invited researchers and data scientists to participate in a [visualization challenge](https://rc.duke.edu/scholars-vis-challenge/) to explore questions like:
@@ -35,11 +36,7 @@ All the analysis was conducted in Python, mainly using Pandas. After creating th
 > (see the code [here](https://github.com/vfaghirh/Duke-Education))
 
 
-Here () you can find my IPython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
-
-
-```
-th neural_style.lua -style_image <image.jpg> -content_image <image.jpg>
-```
-
+[Here](https://github.com/vfaghirh/Duke-Project)) you can find my IPython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
+---
+## Analyzing Insight Fellows
  

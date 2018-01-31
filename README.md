@@ -1,5 +1,5 @@
 # Personal Projects
----
+
 ## Duke Visualization Challenge
 
 Recently, Scholars@Duke and The Graduate School of Duke University published datasets describing their faculty, publications, and PhD dissertation committees. They invited researchers and data scientists to participate in a [visualization challenge](https://rc.duke.edu/scholars-vis-challenge/) to explore questions like:
@@ -21,7 +21,7 @@ There were three data files included: The first one has the entire faculty list,
 
 We first looked into the number of publications at each of the ten main schools per year from 2013 to 2016. Then we used polynomial regression to predict the numbers for 2017 and 2018. To our great surprise, there was a decline in the number of publication over the course of five years in 9 out of 10 cases. The only school that seemed to have an increasing number of publications per year is Duke Law School.  It turns out the publication data includes only those publications that were verified by the faculty, and of course the faculties have been spending less and less time on verifying these lists. The reason we don’t see this pattern in Duke Law School, is because they have a program manager that does the job. This was a big lesson we learned:
 
-### Do not assume your dataset is complete, even if there are no obvious missing values!
+> Do not assume your dataset is complete, even if there are no obvious missing values!
 
 We also wanted to show how different schools and disciplines are connected in terms of their coauthored publications and shared Ph.D. committees. 
 Using the publication data and combining it with the faculty data, we assigned a publication to a Duke department or organization if at least one of the authors was primarily affiliated with that department or organization. Then by looking at the shared publications between different departments, we built an adjacency matrix where each row and column represent a school or department and the each element C[i,j] is proportional to the number of unique co-authored publications between schools i and j. 
@@ -30,13 +30,13 @@ To get an insight into interdisciplinarity of education at Duke, we built a simi
 All the analysis was conducted in Python, mainly using Pandas. After creating the matrices C and E, we fed them into [Gephi](https://gephi.org) which is a great open source platform for graph visualization. The graphs can be seen in the poster, but we also provide interactive versions that can be found in the following links:
 
 > [Interactive Graph for Interdisciplinary Collaborations at Duke](https://vfaghirh.github.io/Duke-Collaborations/)
-> (see the code [here](https://github.com/vfaghirh/Duke-Collaborations))
+> (see the HTML code [here](https://github.com/vfaghirh/Duke-Collaborations))
 
 > [Interactive Graph for Interdisciplinary Education at Duke](https://vfaghirh.github.io/Duke-Education/)
-> (see the code [here](https://github.com/vfaghirh/Duke-Education))
-
+> (see the HTML code [here](https://github.com/vfaghirh/Duke-Education))
 
 [Here](https://github.com/vfaghirh/Duke-Project) you can find my IPython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
+
 
 ## Analyzing Insight Fellows
  

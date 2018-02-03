@@ -27,7 +27,7 @@ We also wanted to show how different schools and disciplines are connected in te
 Using the publication data and combining it with the faculty data, we assigned a publication to a Duke department or organization if at least one of the authors was primarily affiliated with that department or organization. Then by looking at the shared publications between different departments, we built an adjacency matrix where each row and column represent a school or department and the each element C[i,j] is proportional to the number of unique co-authored publications between schools i and j. 
 To get an insight into interdisciplinarity of education at Duke, we built a similar matrix E.  In this matrix, the rows represent departments from which Ph.D. students have graduated since 2012, the columns represent the schools where Ph.D. committee advisors are affiliated, and each element E[i,j] is proportional to the number of Ph.D. students in department i, who have selected their committees from school j.  Both these matrices provide a pretty good measure of how different disciplines overlap.
 
-All the analysis was conducted in Python, mainly using Pandas. After creating the matrices C and E, we fed them into [Gephi](https://gephi.org) which is a great open source platform for graph visualization. The graphs can be seen in the poster, but we also provide interactive versions that can be found in the following links:
+All the analysis was conducted in Python, mainly using Pandas. After making the C and E matrices, we fed them into [Gephi](https://gephi.org) which is a great open source platform for graph visualization. The graphs can be seen in the poster, but we also have made interactive versions that can be found in the following links:
 
 > [Interactive Graph for Interdisciplinary Collaborations at Duke](https://vfaghirh.github.io/Duke-Collaborations/)
 > (see the HTML code [here](https://github.com/vfaghirh/Duke-Collaborations))
@@ -35,8 +35,42 @@ All the analysis was conducted in Python, mainly using Pandas. After creating th
 > [Interactive Graph for Interdisciplinary Education at Duke](https://vfaghirh.github.io/Duke-Education/)
 > (see the HTML code [here](https://github.com/vfaghirh/Duke-Education))
 
-[Here](https://github.com/vfaghirh/Duke-Project) you can find my IPython notebook for analyzing the collaborations and the Gephi output files that you can download and play with. 
+[Here](https://github.com/vfaghirh/Duke-Project) you can find the IPython notebook for analyzing the collaborations and education data files plus the Gephi output files that you can download and play with. 
 
 
 ## Analyzing Insight Fellows
+
+I’ve been interested in [Insight Data Science Fellowship](http://insightdatascience.com) for a while and I’m going to apply for their summer 2018 fellowship in Silicon Valley. This is a very prestigious and competitive program, so I wanted to know what my chances of getting into the program are. I did some web scraping to extract data from their [FELLOWS](http://insightdatascience.com/fellows) webpage and did some simple analysis. Here’s a simple explanation about the process:
+
+First, I imported the needed libraries and set some general parameters for the plots:
+
+```from bs4 import BeautifulSoup
+from collections import OrderedDict
+import json
+import pandas as pd
+import numpy as np
+import requests
+import matplotlib.pyplot as plt
+%matplotlib inline
+plt.style.use('fivethirtyeight')
+import seaborn as sns
+sns.set()```
+
+I used BeautifulSoup for scraping the webpage:
+
+```
+# url to scrape
+url_to_scrape = 'http://insightdatascience.com/fellows'
+r = requests.get(url_to_scrape)
+# Create a beautifulsoup object from html content
+soup = BeautifulSoup(r.text,"html.parser")
+```
+
+By inspecting the elements on their webpage, I realized fellows are stored in lists with 100 elements in each. So I took each list and extracted the info of fellows. I also made a dictionary with the columns I wanted:
+
+```
+rosters = soup.findAll('div', class_="fellows_list w-dyn-list")
+data = {'Name':[],'Title':[],'Company':[],'Project':[],'Background':[], 'Flag':[]}
+```
+
  

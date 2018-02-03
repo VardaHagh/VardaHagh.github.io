@@ -128,3 +128,46 @@ df['Degree'] = df['Degree'].replace({r'[^\x00-\x7F]+':'',r'\n':''}, regex=True, 
 df['Name'] = df['Name'].replace({r'[^\x00-\x7F]+':'',r'\n':''}, regex=True, inplace=False)
 ```
  
+The final data frame looks like this:
+<div align="center">
+<img src="https://vgy.me/OiLUOS.png" alt="OiLUOS.png" height="320px">
+</div> 
+
+> Now the fun begins! 
+First I wanted to know what the distribution of degrees for the accepted fellows looks like. Here are the results:
+```
+def clean_text(row):
+    # return the list of decoded cell in the Series instead 
+    return row.encode('ascii', 'ignore').strip().decode('utf-8')
+
+df['Degree'] = df['Degree'].apply(lambda x: clean_text(x))
+
+fig,ax = plt.subplots(1,1,figsize=(10,10))
+df['Degree'].value_counts()[:7].plot(kind='barh',ax=ax,cmap = 'plasma')
+ax.set_xlabel('Number')
+ax.set_ylabel('Title')
+plt.tight_layout()
+plt.show(fig)
+fig.savefig("degrees.png", dpi = 500, transparent=False) 
+```
+<div align="center">
+<img src="https://vgy.me/sNTxSm.png" alt="sNTxSm.png" height="500px">
+</div> 
+
+It seems like most of their fellows have got the fellowship right after their Ph.D. This is good news for me, since I’m planning to apply right after my Ph.D. as well.
+
+Then I wanted to know how applicants with a degree in physics were represented:
+```
+fig,ax = plt.subplots(1,1,figsize=(10,10))
+participants = df['Major'].value_counts()
+mask = participants > 5 # majors with more than 5 participants
+participants[mask].plot(kind='barh',ax=ax, cmap = 'plasma')
+plt.tight_layout()
+plt.show(fig)
+fig.savefig("majors.png", dpi = 500, transparent=False) 
+```
+<div align="center">
+<img src="https://vgy.me/s6cKc6.png" alt="s6cKc6.png" height="500px">
+</div> 
+
+Woohoo, PHYSICS ROCKS! It seems like a large proportion of Insight fellows, had their Ph.D. degree in Physics. By looking at the bar chart, we can see that many of them have indicated that their degree was in physics. But some were more specific and also included their field of research in physics, which still counts as physics. The This gives me a lot of hope, as it’s clear that the majority of Insight fellows have been physicists so far.

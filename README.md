@@ -195,3 +195,18 @@ plt.show(fig)
 <div align="center">
 <img src="https://vgy.me/K1C3VQ.png" alt="K1C3VQ.png" height="500px">
 </div> 
+
+Things look good so far. I am really looking forward to submitting my application in the next few days and I hope I can get in.
+
+## Future Work
+I would like to look into the projects of all fellows and see if I can see a pattern between their project title and the companies that have hired them. I would like to maximize my chance of getting employed by one of companies I like, so in case I get the Insight Data Science Fellowship for Summer 2018, I’ll invest some time to see if there is a correlation between the types of projects fellows work on and the companies that would hire them:
+
+```
+results = set()
+df[df['Company']=='Google'][['Project','Major']]
+```
+<div align="center">
+<img src="https://vgy.me/vbhgko.png" alt="vbhgko.png" height="200px">
+</div> 
+
+All of the code is included in my IPython notebook above. There is also a cool heat map of Majors and Degrees in the notebook!

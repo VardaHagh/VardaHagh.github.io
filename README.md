@@ -42,9 +42,10 @@ All the analysis was conducted in Python, mainly using Pandas. After making the 
 
 I’ve been interested in [Insight Data Science Fellowship](http://insightdatascience.com) for a while and I’m going to apply for their summer 2018 fellowship in Silicon Valley. This is a very prestigious and competitive program, so I wanted to know what my chances of getting into the program are. I did some web scraping to extract data from their [FELLOWS](http://insightdatascience.com/fellows) webpage and did some simple analysis. Here’s a simple explanation about the process:
 
-First, I imported the needed libraries and set some general parameters for the plots:
+First, I imported the needed libraries:
 
-```from bs4 import BeautifulSoup
+```
+from bs4 import BeautifulSoup
 from collections import OrderedDict
 import json
 import pandas as pd
@@ -52,7 +53,6 @@ import numpy as np
 import requests
 import matplotlib.pyplot as plt
 %matplotlib inline
-plt.style.use('fivethirtyeight')
 import seaborn as sns
 sns.set()
 ```
@@ -65,11 +65,53 @@ r = requests.get(url_to_scrape)
 soup = BeautifulSoup(r.text,"html.parser")
 ```
 
-By inspecting the elements on their webpage, I realized fellows are stored in lists with 100 elements in each. So I took each list and extracted the info of fellows. I also made a dictionary with the columns I wanted:
+By inspecting the elements on the Insight webpage, I realized that fellows are stored in lists with 100 elements in each. So I took each list and extracted the info I needed out of them. I also made a dictionary with keys that I needed for collecting the information:
 
 ```
 rosters = soup.findAll('div', class_="fellows_list w-dyn-list")
 data = {'Name':[],'Title':[],'Company':[],'Project':[],'Background':[], 'Flag':[]}
+```
+The next step was to extract and assign the right values to each key. There was some missing data on fellows’ background, so I created some flags to filter out those entries that didn’t have any background info:
+```
+for i,roster in enumerate(rosters):
+    fellows = roster.findAll('div', class_="w-clearfix w-dyn-items w-row")
+    if len(fellows)!=0:
+        fellows = fellows[0].findAll('div', class_='fellow_item w-dyn-item w-col w-col-2')
+        for fellow in fellows[:]:
+
+            exception = False
+            
+            try:
+                name = fellow.find('div', class_="tooltip_name").text
+                data['Name'].append(name)
+            except:
+                exception = True
+                data['Name'].append('')
+            
+            title = fellow.find('div', class_="toottip_title").text
+            data['Title'].append(title)
+            
+            try:
+                company = fellow.find('div', class_="tooltip_company").text
+                data['Company'].append(company)
+            except: 
+                exception = True
+                data['Company'].append('')
+            
+            project = fellow.find('div', class_="tooltip_project").text
+            data['Project'].append(project)
+            
+            background = fellow.find('div', class_="tooltip_background").text
+            if len(background.split(','))==3:
+                data['Background'].append(background)
+            else:
+                exception = True
+                data['Background'].append(background)
+            
+            if exception:
+                data['Flag'].append(1)
+            else:
+                data['Flag'].append(0)
 ```
 
  

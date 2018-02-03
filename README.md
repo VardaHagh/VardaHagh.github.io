@@ -52,6 +52,7 @@ import pandas as pd
 import numpy as np
 import requests
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 %matplotlib inline
 import seaborn as sns
 sns.set()
@@ -148,7 +149,6 @@ ax.set_xlabel('Number')
 ax.set_ylabel('Title')
 plt.tight_layout()
 plt.show(fig)
-fig.savefig("degrees.png", dpi = 500, transparent=False) 
 ```
 <div align="center">
 <img src="https://vgy.me/sNTxSm.png" alt="sNTxSm.png" height="500px">
@@ -164,10 +164,34 @@ mask = participants > 5 # majors with more than 5 participants
 participants[mask].plot(kind='barh',ax=ax, cmap = 'plasma')
 plt.tight_layout()
 plt.show(fig)
-fig.savefig("majors.png", dpi = 500, transparent=False) 
 ```
 <div align="center">
 <img src="https://vgy.me/s6cKc6.png" alt="s6cKc6.png" height="500px">
 </div> 
 
+
 Woohoo, PHYSICS ROCKS! It seems like a large proportion of Insight fellows, had their Ph.D. degree in Physics. By looking at the bar chart, we can see that many of them have indicated that their degree was in physics. But some were more specific and also included their field of research in physics, which still counts as physics. The This gives me a lot of hope, as it’s clear that the majority of Insight fellows have been physicists so far.
+
+I also looked at the most represented schools. Unfortunately, Arizona State University is not one of them!
+
+```
+fig,ax = plt.subplots(1,1,figsize=(10,10))
+df['University'].value_counts(ascending=False)[0:50].plot(kind='barh',ax=ax, cmap = 'plasma')
+plt.tight_layout()
+plt.show(fig)
+```
+<div align="center">
+<img src="https://vgy.me/EBhUgA.png" alt="EBhUgA.png" height="500px">
+</div> 
+
+The last chart that I looked into was the list of companies where the insight fellows have ended up. This looks very promising, since some of the companies I love including Facebook, Google, Microsoft, and IBM are in the top 30:
+
+```
+fig,ax = plt.subplots(1,1,figsize=(10,10))
+df['Company'].value_counts()[1:31].plot(kind='barh',ax=ax, cmap = 'plasma')
+plt.tight_layout()
+plt.show(fig)
+```
+<div align="center">
+<img src="https://vgy.me/K1C3VQ.png" alt="K1C3VQ.png" height="500px">
+</div> 

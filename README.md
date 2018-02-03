@@ -65,7 +65,7 @@ r = requests.get(url_to_scrape)
 soup = BeautifulSoup(r.text,"html.parser")
 ```
 
-By inspecting the elements on the Insight webpage, I realized that fellows are stored in lists with 100 elements in each. So I took each list and extracted the info I needed out of them. I also made a dictionary with keys that I needed for collecting the information:
+By inspecting the elements on the Insight webpage, I realized that fellows are stored in lists with 100 elements in each. So I took each list and extracted the info I needed out of them. I also made a dictionary with Name, Title, Company, Project, and Background keys to collect the data:
 
 ```
 rosters = soup.findAll('div', class_="fellows_list w-dyn-list")
@@ -113,5 +113,18 @@ for i,roster in enumerate(rosters):
             else:
                 data['Flag'].append(0)
 ```
+Then I made a Pandas data-frame out of my dictionary values and split the background data into three sub-categories, including the major, the degree, and the university that each fellow is affiliated with:
 
+```
+columns = ['Name','Title','Company','Project','Background','Flag']
+df = pd.DataFrame(data,columns=columns)
+df = df[df['Flag']!=1]
+background_split = df['Background'].apply(lambda x: pd.Series(x.split(',')))
+background_split.rename(columns={0:'Major',1:'University',2:'Degree'},inplace=True)
+background_split = background_split[['Major','University','Degree']]
+df.drop('Background',1,inplace=True)
+df = pd.concat([df,background_split],axis=1)
+df['Degree'] = df['Degree'].replace({r'[^\x00-\x7F]+':'',r'\n':''}, regex=True, inplace=False)
+df['Name'] = df['Name'].replace({r'[^\x00-\x7F]+':'',r'\n':''}, regex=True, inplace=False)
+```
  

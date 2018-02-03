@@ -59,10 +59,8 @@ sns.set()```
 I used BeautifulSoup for scraping the webpage:
 
 ```
-# url to scrape
 url_to_scrape = 'http://insightdatascience.com/fellows'
 r = requests.get(url_to_scrape)
-# Create a beautifulsoup object from html content
 soup = BeautifulSoup(r.text,"html.parser")
 ```
 

@@ -54,7 +54,8 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 plt.style.use('fivethirtyeight')
 import seaborn as sns
-sns.set()```
+sns.set()
+```
 
 I used BeautifulSoup for scraping the webpage:
 

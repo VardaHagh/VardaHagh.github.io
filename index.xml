@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>Softwares</title>
+      <link>https://examplesite.org/software/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://examplesite.org/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Courses</title>
       <link>https://examplesite.org/courses/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>

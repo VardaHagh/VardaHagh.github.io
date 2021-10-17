@@ -1,33 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rigidity on Varda Hagh</title>
-    <link>https://examplesite.org/tags/rigidity/</link>
-    <description>Recent content in rigidity on Varda Hagh</description>
+    <title>Softwares on Varda Hagh</title>
+    <link>https://examplesite.org/software/</link>
+    <description>Recent content in Softwares on Varda Hagh</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://examplesite.org/tags/rigidity/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://examplesite.org/software/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>rigidPy</title>
-      <link>https://examplesite.org/project/rigidpy/</link>
-      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://examplesite.org/project/rigidpy/</guid>
-      <description>&lt;p&gt;&lt;code&gt;rigidPy&lt;/code&gt; is a library written in python with minimal dependency to compute rigidity properties of a graph/network. The namespace is designed to resemble mathematical terminology unifying the research themes in mathematics, physics and biology. The library can be used to compute the rigidity matrix, vibrational properties, and elastic properties of the spring networks. It also offers a set of tools to find different realizations of a graph for a given topology.&lt;/p&gt;
-&lt;p&gt;The library consists of three modules:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Framework&lt;/strong&gt;: This is the main module which given a set of coordinates and connectivity can compute rigidty matrix, Hessian matrix, vibrarional frequencies,&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Conguration&lt;/strong&gt;: This module minimizes energy by optimizing the positions of sites given a set of target edge lengths.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Circuit&lt;/strong&gt; (experimental): This module allows one to start from a given framework (identified by coordinates of sites and their connectivty) and find another network that satisfies all constraints but with different position of sites (alternative realization of a framework).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Website: &lt;a href=&#34;https://github.com/VardaHagh/Rigidpy&#34;&gt;https://github.com/VardaHagh/Rigidpy&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>rigidPy</title>

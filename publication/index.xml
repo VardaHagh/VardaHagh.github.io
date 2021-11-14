@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Varda Hagh</title>
-    <link>https://examplesite.org/publication/</link>
-    <description>Recent content in Publications on Varda Hagh</description>
+    <title>Publications on Varda F. Hagh</title>
+    <link>https://vardahagh.com/publication/</link>
+    <description>Recent content in Publications on Varda F. Hagh</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://examplesite.org/publication/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://vardahagh.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rigidPy: Rigidity Analysis in Python</title>
-      <link>https://examplesite.org/publication/009_rigidpy/</link>
+      <link>https://vardahagh.com/publication/009_rigidpy/</link>
       <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/009_rigidpy/</guid>
+      <guid>https://vardahagh.com/publication/009_rigidpy/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -25,10 +25,10 @@
     
     <item>
       <title>Energetic rigidity II: Applications in examples of biological and underconstrained materials</title>
-      <link>https://examplesite.org/publication/008_energetic-rigidity-ii-applications-in-examples-of-biological-and-underconstrained-materials/</link>
+      <link>https://vardahagh.com/publication/008_energetic-rigidity-ii-applications-in-examples-of-biological-and-underconstrained-materials/</link>
       <pubDate>Sat, 07 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/008_energetic-rigidity-ii-applications-in-examples-of-biological-and-underconstrained-materials/</guid>
+      <guid>https://vardahagh.com/publication/008_energetic-rigidity-ii-applications-in-examples-of-biological-and-underconstrained-materials/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -36,10 +36,10 @@
     
     <item>
       <title>Marginal Stability Enables Memory Training in Jammed Solids</title>
-      <link>https://examplesite.org/publication/006_marginal-stability-enables-memory-training-in-jammed-solids/</link>
+      <link>https://vardahagh.com/publication/006_marginal-stability-enables-memory-training-in-jammed-solids/</link>
       <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/006_marginal-stability-enables-memory-training-in-jammed-solids/</guid>
+      <guid>https://vardahagh.com/publication/006_marginal-stability-enables-memory-training-in-jammed-solids/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -47,10 +47,10 @@
     
     <item>
       <title>Transient degrees of freedom and stability</title>
-      <link>https://examplesite.org/publication/005_transient-degrees-of-freedom-and-stability/</link>
+      <link>https://vardahagh.com/publication/005_transient-degrees-of-freedom-and-stability/</link>
       <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/005_transient-degrees-of-freedom-and-stability/</guid>
+      <guid>https://vardahagh.com/publication/005_transient-degrees-of-freedom-and-stability/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -58,10 +58,10 @@
     
     <item>
       <title>Realizations of Isostatic Material Frameworks</title>
-      <link>https://examplesite.org/publication/004_realizations-of-isostatic-material-frameworks/</link>
+      <link>https://vardahagh.com/publication/004_realizations-of-isostatic-material-frameworks/</link>
       <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/004_realizations-of-isostatic-material-frameworks/</guid>
+      <guid>https://vardahagh.com/publication/004_realizations-of-isostatic-material-frameworks/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -69,10 +69,10 @@
     
     <item>
       <title>Energetic Rigidity: a Unifying Theory of Mechanical Stability</title>
-      <link>https://examplesite.org/publication/003_energetic-rigidity-a-unifying-theory-of-mechanical-stability/</link>
+      <link>https://vardahagh.com/publication/003_energetic-rigidity-a-unifying-theory-of-mechanical-stability/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/003_energetic-rigidity-a-unifying-theory-of-mechanical-stability/</guid>
+      <guid>https://vardahagh.com/publication/003_energetic-rigidity-a-unifying-theory-of-mechanical-stability/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -80,10 +80,10 @@
     
     <item>
       <title>Energetic Rigidity: a Unifying Theory of Mechanical Stability</title>
-      <link>https://examplesite.org/publication/007_energetic-rigidity-a-unifying-theory-of-mechanical-stability/</link>
+      <link>https://vardahagh.com/publication/007_energetic-rigidity-a-unifying-theory-of-mechanical-stability/</link>
       <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/007_energetic-rigidity-a-unifying-theory-of-mechanical-stability/</guid>
+      <guid>https://vardahagh.com/publication/007_energetic-rigidity-a-unifying-theory-of-mechanical-stability/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -91,10 +91,10 @@
     
     <item>
       <title>A broader view on jamming: from spring networks to circle packings</title>
-      <link>https://examplesite.org/publication/002_a-broader-view-on-jamming-from-spring-networks-to-circle-packings/</link>
+      <link>https://vardahagh.com/publication/002_a-broader-view-on-jamming-from-spring-networks-to-circle-packings/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/002_a-broader-view-on-jamming-from-spring-networks-to-circle-packings/</guid>
+      <guid>https://vardahagh.com/publication/002_a-broader-view-on-jamming-from-spring-networks-to-circle-packings/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -102,10 +102,10 @@
     
     <item>
       <title>Disordered auxetic networks with no reentrant polygons</title>
-      <link>https://examplesite.org/publication/001_disordered-auxetic-networks-with-no-reentrant-polygons/</link>
+      <link>https://vardahagh.com/publication/001_disordered-auxetic-networks-with-no-reentrant-polygons/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/001_disordered-auxetic-networks-with-no-reentrant-polygons/</guid>
+      <guid>https://vardahagh.com/publication/001_disordered-auxetic-networks-with-no-reentrant-polygons/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -113,10 +113,10 @@
     
     <item>
       <title>Rigidity Loss in Disordered Systems: Three Scenarios</title>
-      <link>https://examplesite.org/publication/000_rigidity-loss-in-disordered-systems-three-scenarios/</link>
+      <link>https://vardahagh.com/publication/000_rigidity-loss-in-disordered-systems-three-scenarios/</link>
       <pubDate>Sun, 30 Nov 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/000_rigidity-loss-in-disordered-systems-three-scenarios/</guid>
+      <guid>https://vardahagh.com/publication/000_rigidity-loss-in-disordered-systems-three-scenarios/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 </description>
@@ -124,10 +124,10 @@
     
     <item>
       <title>An example conference paper</title>
-      <link>https://examplesite.org/publication/conference-paper/</link>
+      <link>https://vardahagh.com/publication/conference-paper/</link>
       <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/conference-paper/</guid>
+      <guid>https://vardahagh.com/publication/conference-paper/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
@@ -136,10 +136,10 @@
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>https://examplesite.org/publication/preprint/</link>
+      <link>https://vardahagh.com/publication/preprint/</link>
       <pubDate>Wed, 07 Apr 2010 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/publication/preprint/</guid>
+      <guid>https://vardahagh.com/publication/preprint/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>

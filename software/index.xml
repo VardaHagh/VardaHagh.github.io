@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Softwares on Varda Hagh</title>
-    <link>https://examplesite.org/software/</link>
-    <description>Recent content in Softwares on Varda Hagh</description>
+    <title>Software on Varda F. Hagh</title>
+    <link>https://vardahagh.com/software/</link>
+    <description>Recent content in Software on Varda F. Hagh</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://examplesite.org/software/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://vardahagh.com/software/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rigidPy</title>
-      <link>https://examplesite.org/software/rigidpy/</link>
+      <link>https://vardahagh.com/software/rigidpy/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/software/rigidpy/</guid>
+      <guid>https://vardahagh.com/software/rigidpy/</guid>
       <description>&lt;p&gt;&lt;code&gt;rigidPy&lt;/code&gt; is a library written in python with minimal dependency to compute rigidity properties of a graph/network. The namespace is designed to resemble mathematical terminology unifying the research themes in mathematics, physics and biology. The library can be used to compute the rigidity matrix, vibrational properties, and elastic properties of the spring networks. It also offers a set of tools to find different realizations of a graph for a given topology.&lt;/p&gt;
 &lt;p&gt;The library consists of three modules:&lt;/p&gt;
 &lt;ul&gt;

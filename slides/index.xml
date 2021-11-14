@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slides on Varda Hagh</title>
-    <link>https://examplesite.org/slides/</link>
-    <description>Recent content in Slides on Varda Hagh</description>
+    <title>Slides on Varda F. Hagh</title>
+    <link>https://vardahagh.com/slides/</link>
+    <description>Recent content in Slides on Varda F. Hagh</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="https://examplesite.org/slides/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://vardahagh.com/slides/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Slides</title>
-      <link>https://examplesite.org/slides/example/</link>
+      <link>https://vardahagh.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://examplesite.org/slides/example/</guid>
+      <guid>https://vardahagh.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34;&gt;academia&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
